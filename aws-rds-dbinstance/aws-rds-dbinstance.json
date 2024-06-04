@@ -502,6 +502,7 @@
     "/properties/DBInstanceIdentifier",
     "/properties/DBName",
     "/properties/DBSubnetGroupName",
+    "/properties/DBSystemId",
     "/properties/KmsKeyId",
     "/properties/MasterUsername",
     "/properties/NcharCharacterSetName",
@@ -556,7 +557,6 @@
     "/properties/Endpoint/HostedZoneId",
     "/properties/DbiResourceId",
     "/properties/DBInstanceArn",
-    "/properties/DBSystemId",
     "/properties/MasterUserSecret/SecretArn",
     "/properties/CertificateDetails/CAIdentifier",
     "/properties/CertificateDetails/ValidTill"
