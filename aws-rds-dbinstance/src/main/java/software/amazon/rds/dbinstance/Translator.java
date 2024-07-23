@@ -500,7 +500,7 @@ public class Translator {
         } else {
             builder.engineVersion(diff(previousModel.getEngineVersion(), desiredModel.getEngineVersion()));
             if (isProvisionedIoStorage(desiredModel)) {
-                builder.allocatedStorage(getAllocatedStorage(desiredModel));
+                builder.allocatedStorage(diff(getAllocatedStorage(previousModel), getAllocatedStorage(desiredModel)));
                 builder.iops(desiredModel.getIops());
             } else {
                 builder.allocatedStorage(diff(getAllocatedStorage(previousModel), getAllocatedStorage(desiredModel)));
